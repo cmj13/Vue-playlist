@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vue-js-3</title>
+	<script src="https://unpkg.com/vue"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="app">
+		<span v-once>{{Meg}}</span>
+		<p>Message:{{Meg}}</p>
+		<p v-html="rawHtml"></p>
+		<p>using V-html directive:<span v-html="rawHtml"></span></p>
+		<div v-bind:class="color">test>></div>
+		<div v-bind:id="color">test>></div>
+		{{ number + 1 }}<br>
+		{{ 1==1 ? 'YES' : 'NO' }}<br>
+		{{ message.split('').reverse().join('') }}
+	</div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

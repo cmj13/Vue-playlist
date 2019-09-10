@@ -1,0 +1,8 @@
+beforeCreate:组件实例化之前执行的函数。
+created:组件实例化完毕，但页面还未显示。
+beforeMount：组件挂在前，页面仍未展示，但虚拟Dom已经加载完成。
+mounted:组价挂在后，此方法执行后，页面显示。
+beforeUpdate:组件更新前，页面仍未更新，但虚拟Dom已经配置完成。
+updated：组件更新，此方法执行后，页面显示。
+beforeDestory:组件销毁前。
+destory:组件销毁后。

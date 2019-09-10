@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>vue-js-5</title>
+	<script src="https://unpkg.com/vue"></script>
+	<script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/lodash@4.13.1/lodash.min.js"></script>
+</head>
+<body>
+<!-- 	计算属性和方法属性 -->
+	<div id="example">
+		<p>Oriiginal message:"{{message}}"</p>
+		<p>Computer reversed message:"{{reseversedMessage()}}"</p>
+	</div>
+<!-- 	侦听属性 -->
+	<div id="demo">
+		{{fullName()}}
+	</div>
+	<!-- 侦听器 -->
+	<div id="watch-example">
+		<p>
+			Ask a yes/no question:
+			<input v-model="question">
+		</p>
+		<p>{{answer}}</p>
+	</div>
+<script src="app.js"></script>
+</body>
+</html>
